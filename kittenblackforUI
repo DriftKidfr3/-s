@@ -1,17 +1,11 @@
--- // Welcome To Kittenblack.cc If You Are Whitelisted Feel Lucky :)
-
-local Settings = {
-    rewrittenmain = {
-        Enabled = true,
-        Key = "q", -- // Key to enable / disable
-        DOT = true, -- // Keep on
-        AIRSHOT = true, -- // Airshot func
-        NOTIF = true, -- // Wether to show notifications or not i would not turn off
-        AUTOPRED = true, -- // put to true if you wanna 2-3 tap
-        FOV = math.huge, -- // dont do anything to do this
-        RESOVLER = false -- // resolver not added yet :)
-    }
-}
+getgenv().Enabled = true
+getgenv().Key = "q", -- // Key to enable / disable
+getgenv().DOT = true, -- // Keep on
+getgenv().AIRSHOT = true, -- // Airshot func
+getgenv().NOTIF = true, -- // Wether to show notifications or not i would not turn off
+getgenv().AUTOPRED = true, -- // put to true if you wanna 2-3 tap
+getgenv().FOV = math.huge, -- // dont do anything to do this
+getgenv().RESOVLER = false -- // resolver not added yet :)
  
 local SelectedPart = "HumanoidRootPart"
 local Prediction = true
